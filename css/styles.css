@@ -60,17 +60,18 @@ body{
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
-    padding: 20px;
+    padding: 2em;
 }
 
 .hero__title{
     font-family: 'Fraunces', serif;
-    
     color: var(--Dark-grayish-blue);
 }
 
 .hero__paragraph{
+    font-size: 18px;
     color: var(--Dark-grayish-blue); 
+    line-height: 1.5;
 }
 
 .hero__subtitle{
