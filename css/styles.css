@@ -21,20 +21,21 @@
 body{
     background-color: var(--Cream);
     padding: 10em;
-    font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
 }
 
 .hero{
     margin: 0 auto;
-    width: 900px;
-    height: 661px;
     background:var(--White) ;
-    border-radius: 25px;
+    border-radius: 10px;
 }
 
 .hero__container{
     display: flex;
+}
+
+.hero__container>*{
+    flex-basis: 1;
 }
 
 .hero__picture{
@@ -45,7 +46,8 @@ body{
 .hero__image{
     display: inline-block;
     width: 100%;
-    border-radius: 25px 0 0 25px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
 
 }
 
@@ -58,17 +60,37 @@ body{
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
+    padding: 20px;
+}
+
+.hero__title{
+    font-family: 'Fraunces', serif;
+    
+    color: var(--Dark-grayish-blue);
+}
+
+.hero__paragraph{
+    color: var(--Dark-grayish-blue); 
+}
+
+.hero__subtitle{
+    font-weight: 700;
+    font-family: 'Fraunces', serif;
+    font-size: 60px;
 }
 
 .hero__price{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .hero__big{
     color: var(--Dark-cyan);
     font-weight: 700;
+    font-family: 'Fraunces', serif;
+    font-size: 50px;
 }
 
 .hero__cancel{
@@ -90,6 +112,7 @@ body{
     display: inline-block;
     color: var(--White);
     border: none;
+    font-weight: 700;
     
 }
 
