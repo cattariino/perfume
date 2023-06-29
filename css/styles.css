@@ -4,10 +4,11 @@
 :root{
    
    --Dark-cyan: hsl(158, 36%, 37%);
-   --Cream: hsl(30, 38%, 92%);
+   --Cream: hsl(32, 78%, 93%);
    --Very-dark-blue: hsl(212, 21%, 14%);
    --Dark-grayish-blue: hsl(228, 12%, 48%);
    --White: hsl(0, 0%, 100%);
+   
 }
 
 
@@ -18,6 +19,53 @@
 }
 
 body{
+    background-color: var(--Cream);
+    padding: 10em;
     font-family: 'Fraunces', serif;
     font-family: 'Montserrat', sans-serif;
+}
+
+.hero{
+    margin: 0 auto;
+    width: 900px;
+    height: 661px;
+    background:var(--White) ;
+    border-radius: 25px;
+}
+
+.hero__container{
+    display: flex;
+}
+
+.hero__picture{
+    width: 100%;
+    
+}
+
+.hero__image{
+    display: inline-block;
+    width: 100%;
+    border-radius: 25px 0 0 25px;
+
+}
+
+.hero__texts__container{
+    display: flex;
+}
+
+.hero__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.hero__cta{
+    text-decoration: none;
+    background: var(--Dark-cyan);
+    
+}
+
+.heroo__add{
+    color: var(--White);
 }
