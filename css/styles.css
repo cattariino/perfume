@@ -34,9 +34,7 @@ body{
     display: flex;
 }
 
-.hero__container>*{
-    flex-basis: 1;
-}
+
 
 .hero__picture{
     width: 100%;
@@ -61,11 +59,13 @@ body{
     justify-content: space-around;
     text-align: left;
     padding: 2em;
+    gap: 30px;
 }
 
 .hero__title{
-    font-family: 'Fraunces', serif;
+    font-weight: initial;
     color: var(--Dark-grayish-blue);
+    letter-spacing: 4px;
 }
 
 .hero__paragraph{
@@ -83,7 +83,7 @@ body{
 .hero__price{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    gap: 2em;
     align-items: center;
 }
 
@@ -114,6 +114,10 @@ body{
     color: var(--White);
     border: none;
     font-weight: 700;
+    width: 100%;
+    height: 55px;
+    border-radius: 5px;
+    
     
 }
 
