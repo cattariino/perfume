@@ -34,7 +34,9 @@ body{
     display: flex;
 }
 
+.hero__container>*{
 
+}
 
 .hero__picture{
     width: 100%;
@@ -121,3 +123,32 @@ body{
     
 }
 
+@media screen and ( max-width:768px){
+    .hero__container{
+        flex-direction: column;
+    }
+
+    .hero__picture{
+        height: 50%;
+    }
+
+    .hero__image {
+        border-radius: 10px 10px 0 0;
+        height: 300px;
+    }
+
+    .hero__subtitle {
+        font-size: 40px;
+    }
+
+    .hero__texts {
+        padding: 1.5em;
+        gap: 20px;
+    }
+
+    .hero__big {
+        font-size: 40px;
+    }
+
+}
+    
