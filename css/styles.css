@@ -20,7 +20,7 @@
 
 body{
     background-color: var(--Cream);
-    padding: 10em;
+    padding: 5em;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -28,6 +28,7 @@ body{
     margin: 0 auto;
     background:var(--White) ;
     border-radius: 10px;
+    width: 60%;
 }
 
 .hero__container{
